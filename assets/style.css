@@ -358,7 +358,7 @@ form .hint_area {
 }
 
 #header .nav {
-    width: 490px;
+    width: 470px;
     height: 30px;
     overflow: hidden;
 		position:absolute;
@@ -1073,6 +1073,7 @@ form .hint_area {
 
 /*------------------ product ------------------*/
 #product .image {
+  width:242px;
 	float: left;
 }
 #product .description a {
@@ -1126,6 +1127,7 @@ form .hint_area {
     height: 240px;
     background: #fff no-repeat center center;
     border:1px solid #eaeaea;
+    margin:0 0 10px;
     display: block;
 }
 #product .all{
@@ -1174,8 +1176,11 @@ form .hint_area {
 	width: 50px;
 	height: 50px;
 	background: transparent no-repeat center center;
-	margin: 0 10px 10px 0;
+	margin: 0 11px 10px 0;
 	border: 1px solid #eaeaea;
+}
+#product .extra_images .last span {
+  margin: 0 0px 10px 0;
 }
 #product .buy {
     float: left;
